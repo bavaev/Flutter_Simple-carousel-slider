@@ -12,7 +12,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -47,12 +46,7 @@ class _MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CarouselSlider(
-              items: [
-                svgIcon1,
-                svgIcon2,
-                Image.asset('assets/images/1.png'),
-                Image.asset('assets/images/2.png')
-              ],
+              items: [svgIcon1, svgIcon2, Image.asset('assets/images/1.png'), Image.asset('assets/images/2.png')],
               options: CarouselOptions(
                 autoPlay: false,
                 enlargeCenterPage: true,
