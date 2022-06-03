@@ -4,6 +4,6 @@
 
 Use packages:
 
-  flutter_svg
-  carousel_slider
+  flutter_svg,\n
+  carousel_slider,\n
   import_sorter
